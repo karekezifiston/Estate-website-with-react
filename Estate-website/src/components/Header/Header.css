@@ -1,0 +1,49 @@
+.h-wrapper{
+    background-color:black;
+    color:white;
+    
+    
+}
+.h-container{
+    display:flex;
+    align-items: center;
+    margin-left:2rem;
+    padding-top:2px;
+}
+.logo-name{
+    font-style: italic;
+}
+.h-menu{
+    margin-left:34rem;
+    cursor: pointer;
+    
+}
+.h-menu >a{
+    gap:2rem;
+    padding-right:3rem;
+    text-decoration: none;
+    color:white;
+}
+.h-menu >a:hover{
+    color: rgba(255, 255, 255, 0.677);
+}
+.button{
+  background-color:rgb(58, 114, 234);
+  border:none;
+  border-radius:5px;
+  padding:10px 20px;
+  
+}
+.button >a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.816);
+    transition:all 300ms ease-in;
+}
+.button:hover{
+    transform:scale(1.1);
+}
+.button>a:hover{
+    color:rgba(0, 0, 0, 0.816);
+    cursor: pointer;
+    transform:scale(1.1);
+}
