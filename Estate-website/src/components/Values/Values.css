@@ -1,0 +1,49 @@
+.value{
+    padding-top:2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 2rem;
+}
+.header-title{
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.orangeText2{
+    color:orange;
+    font-size:1rem;
+    font-weight:600;
+
+}
+.PrimaryText2{
+    color:#1f3e72;
+    font-weight:bold;
+    font-size:2rem;
+}
+.accordion {
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px;
+    width: 300px;
+    margin: 20px auto; */
+  }
+  
+  .accordion-item {
+    /* border-bottom: 1px solid #ccc; */
+  }
+  
+  .accordion-title {
+    background-color: #f9f9f9;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .accordion-title h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .accordion-content {
+    padding: 15px;
+    background-color: #fff;
+  }

@@ -3,6 +3,8 @@ import Hero from "./components/hero/hero"
 import Companies from "./components/companies/Companies"
 import Residencies from "./components/Residencies/Residencies"
 import Carousel from "./components/Carousel/Carousel"
+import Values from "./components/Values/Values"
+import { accordionData } from "./components/Data/Data"
 
 
 
@@ -17,6 +19,7 @@ function App() {
        <Companies/>
        <Residencies/>
        <Carousel/>
+       <Values items={accordionData} />
        
        
     </div>
