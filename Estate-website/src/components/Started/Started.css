@@ -1,0 +1,42 @@
+.started{
+    padding-top:3rem;
+    padding-bottom:3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.itatu{
+   border:solid 8px rgba(12, 35, 86, 0.286);
+   border-radius:10px;
+    width:80rem;
+    margin-left:9rem;
+    text-align: center;
+    padding-top:3rem;
+    padding-bottom:4rem;
+    background-color: rgba(0, 81, 255, 0.652);
+    color:white;
+}
+.rimwe{
+    font-size:34px;
+    font-weight:bold;
+}
+.kabiri{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    color:rgba(255, 255, 255, 0.668);
+}
+.gatatu{
+  background-color:rgba(0, 81, 255, 0.067) ;
+  border-radius:10px;
+  border: solid white;
+  padding-top:10px;
+   padding-bottom:10px;
+   padding-left:19px;
+   padding-right:19px;
+   color:white;
+   font-weight:bold;
+   font-size:17px;
+}
+.gatatu:hover{
+    transform:scale(1.1);
+}

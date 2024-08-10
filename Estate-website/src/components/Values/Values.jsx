@@ -2,71 +2,76 @@ import React,{useState} from 'react'
 import './Values.css'
 import Video from './Video.mp4'
 
-const AccordionItem = ({title,content,isOpen, onClick}) => 
 
-    (
-        <div className="accordion-item">
-          <div className="accordion-title" onClick={onClick}>
-            <h2>{title}</h2>
-          </div>
-          {isOpen && (
-            <div className="accordion-content">
-              <p>{content}</p>
-            </div>
-          )}
-        </div>
-      );
-
-
-      const Values = ({ items }) => {
-        const [openIndex, setOpenIndex] = useState(null);
       
-        const handleItemClick = (index) => {
-          setOpenIndex(openIndex === index ? null : index);
-        };
+      const Values = () => {
+        const [selected, setSelected] = useState(null);
       
+        const toggle =(i)=>{
+          if (selected === i){
+            return setSelected(null)
+          }
+          setSelected (i)
+         }
 
-        <div>
-        <h1>My Video</h1>
-        <video width="600" controls>
-          <source src={Video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div> 
+
         return (
     
         <section className='value'id='our-value'>
           <div className="header-title">
           <h1 className='PrimaryText2'>Our Values</h1>
-          <h4 className='orangeText2'>You'are our priority</h4>
+          
           
          </div>
-          <div className="accordion">
-            {items.map((item, index) => (
-              <AccordionItem
-                key={index}
-                title={item.title}
-                content={item.content}
-                isOpen={openIndex === index}
-                onClick={() => handleItemClick(index)}
-              />
-            ))}
+         
+         <div className='two-parts'>
+         <div className='first-part'>
+          <h3 className='first-part-title'>Services We Provide </h3>
+          <p className='first-part-title-p'>We're here to to make your dreams come true by providing best Services.</p>
+          <p className='first-part-title-p p'> we're also here to give you best advises that will change your life.</p>
+              <div className="accordion">
+              {data.map((item, i) => (
+             <div className='item'>
+                  <div className='title' onClick={() =>toggle(i)}>
+                        <h2><img src="best.png" alt=""width={15} />{item.question}</h2>
+                        <span className='zz'>{selected=== i ? '-' : '+'}</span>
+                  </div>
+                  <div className={selected=== i ? 'content show' : 'content'}>{item.answer}</div>
+             </div>
+          ))}
+    </div>
+
+
           </div>
-          <video width="600" height={300} controls autoplay loop muted poster="path-to-poster-image.jpg">
-      </video>
+          <div className='video'>
+          <div>
+        <h1></h1>
+        <video className='vv' width="600" controls>
+          <source src={Video} type="video/mp4" />
+        </video>
+      </div> 
+         
+         </div>
+         </div>
           </section>
         );
       };
+
+      
+const data = [
+  {
+    question:  'Best interest rates on the market',
+    answer: 'Lorem ipsum dolor sit  amet consectetur adipisicing elit. Alias nam cumque sequi libero sapiente minus minima quidem eaque ullam qui. Deserunt laboriosam hic at illum ex, totam sequi veniam. Sequi.',
+  },
+  {
+    question: 'Prevent unstable prices',
+    answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam cumque sequi libero sapiente minus minima quidem eaque ullam qui. Deserunt laboriosam hic at illum ex, totam sequi veniam. Sequi.',
+  },
+  {
+    question: 'Best price on the market',
+    answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam cumque sequi libero sapiente minus minima quidem eaque ullam qui. Deserunt laboriosam hic at illum ex, totam sequi veniam. Sequi.',
+  },
+];
       
       export default Values;
       
-//     {
-    
-//   return (
- 
-
-//     
-//   )
-// }
-
-// export default Values

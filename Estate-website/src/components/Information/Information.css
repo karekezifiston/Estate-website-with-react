@@ -1,0 +1,30 @@
+.information{
+    padding-top:1rem;
+    padding-bottom:4rem;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 0, 0);
+}
+.biri{
+    display: flex;
+    gap:50rem;
+    margin-left:2rem;
+}
+.imwee>h1,.indii>h1{
+    color:#1f3e72;
+    font-weight:bold;
+    padding-bottom:1rem;
+}
+.imwee>p{
+    color: rgba(255, 255, 255, 0.759);
+    font-size:16px;
+}
+.indii>p{
+color: rgba(255, 255, 255, 0.468);
+font-size:15px;
+}
+.imwee{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}

@@ -9,23 +9,61 @@
     align-items: center;
     margin-left:2rem;
     padding-top:2px;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
 }
 .logo-name{
     font-style: italic;
 }
-.h-menu{
-    margin-left:34rem;
+.h-menu ul{
+    margin-right:3rem;
     cursor: pointer;
+    display: flex;
+    gap:4rem;
+    align-items: center;
+    
     
 }
+li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 15px;
+    
+    
+}
+li > a{
+    text-decoration: none;
+    color:white;
+    position: relative;
+}
+
 .h-menu >a{
+    display: flex;
     gap:2rem;
     padding-right:3rem;
     text-decoration: none;
     color:white;
+    position: relative;
 }
+.a::after{
+    content: '';
+    width: 0;
+    height:3px;
+    background: #ffffff;
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition:0.3s;
+}
+.a:hover::after{
+    width:100%;
+}
+
 .h-menu >a:hover{
-    color: rgba(255, 255, 255, 0.677);
+    /* color: rgba(255, 255, 255, 0.677); */
 }
 .button{
   background-color:rgb(58, 114, 234);

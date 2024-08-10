@@ -1,0 +1,90 @@
+.contact{
+    padding-top:3rem;
+    padding-bottom:3rem;
+    justify-content: center;
+    align-items: center;
+}
+.ibiri{
+    margin-left:2rem;
+}
+.ibiri>h3{
+ color:orange;
+ font-size:2rem;
+ font-weight:600;
+}
+.ibiri{
+ color:#1f3e72;
+ font-size:1.4rem;
+ font-weight:bold;
+}
+.ibiri>p{
+ padding-top:7px;
+ padding-bottom:1rem;
+ color: rgba(0, 0, 0, 0.696);
+ font-size:16px;
+ width:70%;
+ /* font-family:"poppins" sans-serif; */
+}
+.ebyiri{
+    display: flex;
+    align-items: center;
+    gap:20rem;
+}
+.inform{
+    margin-left:5rem;
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+}
+.call>p,.chat>p,.video>p,.message>p{
+    padding-top:8px;
+    padding-bottom:1rem;
+    font-size:12px;
+}
+.call>h4,.chat>h4,.video>h4,.message>h4{
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.758);
+}
+.call>a,.chat>a,.video>a,.message>a{
+    all:unset;
+    color: rgba(3, 57, 150, 0.712);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.call>a:hover,.chat>a:hover,.call>a:hover,.message>a:hover{
+   color: rgb(46, 86, 157);
+   font-size:17px;
+   transition: 0.1s;
+}
+.call-chat{
+    display: flex;
+    align-items: center;
+    gap:6rem;
+    padding-bottom:3rem;
+}
+.video-message{
+    display: flex;
+}
+/* .image-container2{
+    margin-left:5rem;
+    
+    width:30rem;
+    height:29rem;
+    overflow:hidden;
+    border-radius:15rem 15rem 0 0;
+    border:8px solid rgb(0, 0, 0);
+    margin-bottom:7rem;
+
+} */
+.image-container>img{
+    width:110%;
+    height:100%;
+ 
+}
+.zombi{
+    display: flex;
+    align-items: center;
+    gap:0rem;
+    margin-left:5rem;
+}

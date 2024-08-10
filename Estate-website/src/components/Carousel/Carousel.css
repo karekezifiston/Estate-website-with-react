@@ -1,4 +1,24 @@
-.section-one{
+.r-wrapperr{
+    padding-top:100px;
+    padding-bottom:70px;
+    justify-content: center;
+    align-items: center;
+}
+.r-head{
+    text-align: center;
+    padding-bottom:20px;
+}
+.PrimaryText{
+    color:#1f3d72;
+   font-weight:bold;
+   font-size:2rem;
+   padding-bottom:15px;
+}
+.orangeText{
+    color:orange;
+    font-size:1rem;
+    font-weight:600;
+    padding-bottom:50px;
 
 }
 .slider-container{
@@ -23,13 +43,21 @@
     align-items: center;
     transition: background-color 0.7s ease-in-out, height 0.4s ease-in-out, width 0.4s ease-in-out;
 } */
-.card>img{
+.ll{
     width:90%;
     height:40%;
     border-radius:20px;
 
 
 
+}
+.ll:hover{
+    transition: 0s;
+    width:95%;
+    height:50%;
+}
+.slick-slider{
+    border-radius:30px !important; 
 }
 .slick-prev::before{
     content:'\2039' !important;
