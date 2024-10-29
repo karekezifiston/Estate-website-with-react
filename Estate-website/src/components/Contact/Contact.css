@@ -1,11 +1,21 @@
 .contact{
     padding-top:3rem;
     padding-bottom:3rem;
+    display: flex;
     justify-content: center;
     align-items: center;
+    z-index:1;
+}
+.zombi{
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    gap:0rem;
+    margin-left:7vw;
 }
 .ibiri{
-    margin-left:2rem;
+    display: flex;
+    flex-direction: column;
 }
 .ibiri>h3{
  color:orange;
@@ -25,13 +35,9 @@
  width:70%;
  /* font-family:"poppins" sans-serif; */
 }
-.ebyiri{
-    display: flex;
-    align-items: center;
-    gap:20rem;
-}
+
+
 .inform{
-    margin-left:5rem;
     margin-top:2rem;
     display: flex;
     flex-direction: column;
@@ -77,14 +83,49 @@
     margin-bottom:7rem;
 
 } */
-.image-container>img{
-    width:110%;
+.image-containerr>img{
+    width:90%;
     height:100%;
  
 }
-.zombi{
-    display: flex;
-    align-items: center;
-    gap:0rem;
-    margin-left:5rem;
+@media (min-width:0px) and (max-width:987px){
+    .zombi{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around !important;
+        align-items: center;
+        gap:0rem;
+        margin-left:7vw;
+    }
+    .iyambere{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ibiri>h3 {
+        color: orange;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .call-chat {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        padding-bottom: 3rem;
+    }
+    .ibiri>h1{
+        font-size:1.7rem;
+    }
+    .ibiri>p {
+        padding-top: 7px;
+        padding-bottom: 1rem;
+        color: rgba(0, 0, 0, 0.696);
+        font-size: 16px;
+        width: 90%;
+    }
+    .image-containerr>img{
+        width:90%;
+        height:auto;
+     
+    }
 }

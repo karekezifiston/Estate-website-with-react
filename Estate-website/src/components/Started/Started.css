@@ -1,6 +1,8 @@
 .started{
     padding-top:3rem;
     padding-bottom:3rem;
+    display: flex;
+
     justify-content: center;
     align-items: center;
     
@@ -8,35 +10,174 @@
 .itatu{
    border:solid 8px rgba(12, 35, 86, 0.286);
    border-radius:10px;
-    width:80rem;
-    margin-left:9rem;
+    width:70vw;
+    height:25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
     text-align: center;
     padding-top:3rem;
     padding-bottom:4rem;
     background-color: rgba(0, 81, 255, 0.652);
     color:white;
+    gap:2vw;
 }
 .rimwe{
-    font-size:34px;
+    font-size:2.3vw;
     font-weight:bold;
 }
 .kabiri{
-    padding-top:2rem;
-    padding-bottom:2rem;
+    font-size:1.4vw;
+    padding-top:0vw;
+    padding-bottom:0rem;
     color:rgba(255, 255, 255, 0.668);
 }
 .gatatu{
   background-color:rgba(0, 81, 255, 0.067) ;
   border-radius:10px;
   border: solid white;
-  padding-top:10px;
-   padding-bottom:10px;
-   padding-left:19px;
-   padding-right:19px;
+  padding-top:0.8vw;
+   padding-bottom:0.6vw;
+   padding-left:2vw;
+   padding-right:2vw;
    color:white;
    font-weight:bold;
-   font-size:17px;
+   font-size:2vw;
 }
 .gatatu:hover{
     transform:scale(1.1);
+}
+@media (min-width:685px) and (max-width:805px){
+    .rimwe{
+        font-size:2vw;
+        font-weight:bold;
+    }
+    .itatu{
+        border:solid 1vw rgba(12, 35, 86, 0.286);
+        border-radius:10px;
+         width:70vw;
+         height:25vw;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content:center;
+         text-align: center;
+         padding-top:0rem;
+         padding-bottom:0rem;
+         background-color: rgba(0, 81, 255, 0.652);
+         color:white;
+         gap:2vw;
+     }
+    .kabiri{
+        padding-top:0vw;
+        /* font-size:13px; */
+        padding-bottom:0rem;
+        color:rgba(255, 255, 255, 0.668);
+    }
+    .gatatu{
+        background-color:rgba(0, 81, 255, 0.067) ;
+        border-radius:1vw;
+        border: solid white;
+        padding-top:0.8vw;
+         padding-bottom:0.6vw;
+         padding-left:1vw;
+         padding-right:1vw;
+         color:white;
+         font-weight:bold;
+         font-size:1.6vw;
+      }
+}
+@media (min-width:566px) and (max-width:685px){
+    .rimwe{
+        font-size:2.5vw;
+        font-weight:bold;
+    }
+    .kabiri{
+        font-size:1.7vw;
+        padding-top:0vw;
+        padding-bottom:0rem;
+        color:rgba(255, 255, 255, 0.668);
+    }
+}
+@media (min-width:419px) and (max-width:566px){
+    .itatu{
+        border:solid 8px rgba(12, 35, 86, 0.286);
+        border-radius:10px;
+         width:80vw;
+         height:25vw;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content:center;
+         text-align: center;
+         padding-top:3rem;
+         padding-bottom:4rem;
+         background-color: rgba(0, 81, 255, 0.652);
+         color:white;
+         gap:2vw;
+     }
+    .rimwe{
+        font-size:3.3vw;
+        font-weight:bold;
+    }
+    .kabiri{
+        font-size:2.2vw;
+        padding-top:0vw;
+        padding-bottom:0rem;
+        color:rgba(255, 255, 255, 0.668);
+    }
+    .gatatu{
+        background-color:rgba(0, 81, 255, 0.067) ;
+        border-radius:1vw;
+        border: solid white;
+        padding-top:1.3vw;
+         padding-bottom:1.3vw;
+         padding-left:1.3vw;
+         padding-right:1.3vw;
+         color:white;
+         font-weight:bold;
+         font-size:2vw;
+      }
+}
+@media (min-width:0px) and (max-width:419px){
+    .itatu{
+        border:solid 8px rgba(12, 35, 86, 0.286);
+        border-radius:10px;
+         width:90vw;
+         height:40vw;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content:center;
+         text-align: center;
+         padding-top:3rem;
+         padding-bottom:4rem;
+         background-color: rgba(0, 81, 255, 0.652);
+         color:white;
+         gap:2vw;
+     }
+    .rimwe{
+        font-size:12px;
+        font-weight:bold;
+    }
+    .kabiri{
+        font-size:9.5px;
+        width:199px;
+        padding-top:0vw;
+        padding-bottom:0rem;
+        color:rgba(255, 255, 255, 0.668);
+    }
+    .gatatu{
+        background-color:rgba(0, 81, 255, 0.067) ;
+        border-radius:1vw;
+        border: solid white;
+        padding-top:5px;
+         padding-bottom:1vw;
+         padding-left:1.2vw;
+         padding-right:1.2vw;
+         color:white;
+         font-weight:bold;
+         font-size:10px;
+      }
 }

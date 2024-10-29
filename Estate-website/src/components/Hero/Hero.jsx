@@ -8,6 +8,12 @@ const Hero = () => {
     <section className="hero-wrapper">
         <div className="hero-container">
 {/* .................left side................................. */}
+            <div className="hero-right none-normal">
+             <div className="image-container">
+                <img src="./hero-image.png" alt="" />
+             </div>
+                
+            </div>
          <div className="hero-left">
          <div className="hero-title">
           <div className="orange-circle"/>
@@ -17,23 +23,11 @@ const Hero = () => {
          </div>
          
          <div className="hero-des">
-          <span>Find a Varierty of Properties that suit you very easilty <br /></span>
-          <span>Forget all difficulties in finding a residence for you </span>
+           <p>Find a Varierty of Properties that suit you very easilty Forget all difficulties in finding a residence for you</p>
          </div>
-         <div className="search-bar">
-          {/* <HilocationMaker color="var(--blue)"size={25}/> */}
-          <input type="text" />
-          <button className="button">Search</button>
-         </div>
-         {/* <div className="stats">
-          <div className="stat">
-            <span>CountUp start={8800} end={9000}  duration={4}</span>
-            <span>+</span>
-          </div>
-         </div> */}
         </div>  
 {/* .................right side................................. */}
-            <div className="hero-right">
+            <div className="hero-right none-short">
              <div className="image-container">
                 <img src="./hero-image.png" alt="" />
              </div>

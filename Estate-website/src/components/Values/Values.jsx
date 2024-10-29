@@ -17,15 +17,12 @@ import Video from './Video.mp4'
 
         return (
     
-        <section className='value'id='our-value'>
-          <div className="header-title">
-          <h1 className='PrimaryText2'>Our Values</h1>
-          
-          
-         </div>
-         
+        <section className='value'id='our-value'>  
          <div className='two-parts'>
          <div className='first-part'>
+         <div className="header-title">
+          <h1 className='PrimaryText2'>Our Values</h1>
+          </div>
           <h3 className='first-part-title'>Services We Provide </h3>
           <p className='first-part-title-p'>We're here to to make your dreams come true by providing best Services.</p>
           <p className='first-part-title-p p'> we're also here to give you best advises that will change your life.</p>

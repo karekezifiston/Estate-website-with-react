@@ -46,7 +46,7 @@ const Contact = () => {
             </div>
             </div>
             <div className='iyindi'>
-              <div className="image-container">
+              <div className="image-containerr">
                 <img src="./hero-image.png" alt="" />
               </div>
           </div>
